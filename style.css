@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #cccdcd;
+    font-family: 'Poppins', sans-serif, roboto;
+}
+
+/* showcase */
+
+.showcase {
+  background-image: url(/background/pexels-bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1150px;
+  color: #fff;
+}
+
+
+/* nav */
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    color: #fff;
+    padding: 0 40px;
+    margin: 10px 0 0 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 65em;
+}
+
+.navbar li{
+    padding-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 0 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    color: rgb(129, 13, 13); 
+}
+
+.active a{
+    text-decoration: none;
+    color: rgb(129, 13, 13); 
+}
+
+/* showcase */
+
+.showcase-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10em;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.show-text h1{
+    
+        font-size: 70px;
+
+}
+
+.show-text p{
+        font-size: 30px;
+        background: #b5b7b7;
+        padding: 2px 5px;
+    }
+
+.show-text button{
+    font-size: 25px;
+    background: rgb(61, 61, 212);
+    color: #fff;
+    padding: 10px 20px;
+    border: rgb(61, 61, 212);
+    border-radius: 5px;
+}
+
+.show-text button:hover{
+    
+    background: rgba(61, 61, 212, 0.308);
+    border: rgb(61, 61, 212);
+    
+}
+
+.show-img img{
+    border: 15px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 500px;
+}
+
+/* about*/
+
+.about-me{
+   text-align: center;
+}
+.about-me h2{
+   font-size: 30px;
+}
+.about-me p{
+   font-size: 18px;
+}
+
+.about-wrap{
+    display: flex;
+    gap: 5;
+}
+
+.wrap{
+    border: 2px solid black;
+}

@@ -6,60 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Yunus Mustapha">
     <title>Yunus Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center>
+    <!-- <center> -->
         <!-- nav -->
-    <header>
-        <nav id="top">
-            <h1>YUNUS MUSTAPHA</h1>
-            <ul type="none">
-               <a href="#"><li>Home</li></a>
+    <header class="showcase">
+
+        <div class="main">
+                     <div class="logo">
+                <h1>YUNUS</h1>
+            </div>
+            
+            <div class="navbar">
+                
+                 <ul type="none">
+               <a href="#" class="active"><li>Home</li></a>
                <a href="#about"><li>About</li></a>
                <a href="#service"><li>Service</li></a>
                <a href="#resume"><li>Resume</li></a>
                <a href="#contact"><li>Contact</li></a>
             </ul>
-        </nav>
-    </header>
+            </div>
+
+        </div>
 
     <!-- showcase -->
 
-    <section>
-        <div>
-        <table style="width: 60%;">
-            <tr>
-                <th>
+    <section class="showcase-content">
+
+        <div class="show-text">
                 <h1>I'm a Web Developer</h1>
                <p> I have a long time experience in this field using <b> HTML, CSS and JavaScript. </p>
                <button>Go To My Portfolio</button>
-            </th>
+           </div>
 
-                <th><img src="/mydp.jpeg" alt="Yunus Picture" width="500px"></th>
-            </tr>
-        </table>
-        </div>
+           <div class="show-img">
+                 <img src="/mydp.jpeg" alt="Yunus Picture">
+           </div>
+               
+
     </section>
-    <br>
-        <hr>
+    
+    </header>
 
         <!-- about page -->
 
-    <section id="about">
-        <div>
-            <h2>ABOUT ME</h2>
-                
-                <h3>WELCOME TO MY WORLD</h3>
-               <p> I'm a young tech enthusiast and entrepreneur who love to explore and learn more.</p>
-               <h4>Why am different from others:</h4>
-               <button>Creativity</button> &nbsp; <button>Dedication</button> &nbsp; <button>Hard Work</button>
-               
-                <br>
-               <br>
+       
 
+    <section id="about">
+
+        <div class="about-me">
+                <h2>WELCOME TO MY WORLD</h2>
+               <p> I'm a young tech enthusiast and entrepreneur who love to explore and learn more.<br>Why am different from others:</p>
+
+            <div class="about-wrap">
+
+            
+
+               <div class="wrap">
+                <h2>Creativity</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus a dolorem consectetur ratione eligendi veniam delectus quis dolore error blanditiis voluptatum tempore tempora, voluptatibus iste laboriosam! Distinctio vero harum libero!</p>
+               </div>
+
+                <div class="wrap">
+                <h2>Dedication</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus a dolorem consectetur ratione eligendi veniam delectus quis dolore error blanditiis voluptatum tempore tempora, voluptatibus iste laboriosam! Distinctio vero harum libero!</p>
+               </div>
+
+                <div class="wrap">
+                <h2>Hard Work</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus a dolorem consectetur ratione eligendi veniam delectus quis dolore error blanditiis voluptatum tempore tempora, voluptatibus iste laboriosam! Distinctio vero harum libero!</p>
+               </div>
+               
+            </div>
             </div>
     </section>
-    <hr>
+   
 
     <!-- service page -->
 
@@ -99,7 +122,7 @@
 
          <h3>SHORT VIDEO ON WHY YOU NEED A WEBSITE</h3>
             
-              <iframe width="800" height="500" src="https://www.youtube.com/embed/XOIK_DOl8FE" title="5 Reasons Why You Need A Website" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <!-- <iframe width="800" height="500" src="https://www.youtube.com/embed/XOIK_DOl8FE" title="5 Reasons Why You Need A Website" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                 
     </section>
     <br>
@@ -118,7 +141,9 @@
 
      <!-- Contact page -->
 
-    <section id="contact">
+     
+
+    <footer id="contact">
         <h2>GET IN TOUCH WITH ME</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, perferendis error?</p><br>
         <div>
@@ -160,7 +185,7 @@
             </tr>
         </table>
         </div>
-    </section>
+    </footer>
     <div>
         <a href="#top"><button>GO UP</button></a>
     </div>
