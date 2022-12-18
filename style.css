@@ -9,11 +9,11 @@ body{
 
 .showcase {
 background: linear-gradient( rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
-    url(img/bgphoto.avif);
+    url(img/arun-anapparakkal-6Lrw9XXfIQU-unsplash.jpg);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-height: 800px;
+height: 650px;
 color: #fff;
 }
 
@@ -29,8 +29,8 @@ color: #fff;
 
 .logo{
     color: #fff;
-    padding: 0 40px;
-    margin: 10px 0 0 10px;
+    /* padding: 0 40px; */
+    margin: 10px 0 0 30px;
 }
 
 
@@ -38,11 +38,13 @@ color: #fff;
 .navbar ul{
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
+    margin: 40px 0 0 20px;
 }
 
 .navbar li{
-    padding-right: 20px;
-    margin: 20px 0 0 10px;
+    /* padding-right: 20px; */
+    /* margin: 20px 0 0 10px; */
     
     
 }
@@ -68,10 +70,6 @@ color: #fff;
 /* showcase */
 
 .showcase-content{
-    /* display: flex;
-    flex-wrap: wrap;
-    gap: 10em;
-    justify-content: center; */
     padding-left: 250px;
     margin-top: 100px;
     font-family: 'Montserrat', sans-serif;
@@ -81,12 +79,16 @@ color: #fff;
 .show-text{
     padding: 0;
     margin: 0;
+    max-width: 700px;
+    
+    
 }
 
 
 .show-text h1{
     
         font-size: 30px;
+        line-height: 1.5em;
 
 }
 
@@ -94,10 +96,12 @@ color: #fff;
 .show-text p{
     font-size: 20px;
     color: #8d99ae;
+    padding: 5px 0 20px 0;
+    line-height: 1.5em;
     }
 
 button{
-    font-size: 25px;
+    font-size: 18px;
     background: rgba(129, 13, 13, 0); 
     color: #fff;
     padding: 10px 20px;
@@ -107,8 +111,8 @@ button{
 
 button:hover{
     
-    background: #8d99ae;
-    border: 3px solid #8d99ae;
+    background: #b8c0ff;
+    border: 3px solid #b8c0ff;
     
 }
 
@@ -122,17 +126,20 @@ button:hover{
 
 .wrapping{
    text-align: center;
+   align-content: center;
    padding: 100px 200px;
 }
 .wrapping h1{
    font-size: 16px;
-   font-weight: 500;
+   /* font-weight: 500; */
    color: #222;
+   
 }
 .wrapping p{
    font-size: 1.1rem;
-   font-weight: 300;
    color: #948daa;
+
+
 }
 
 .content-wrap{
@@ -146,7 +153,7 @@ button:hover{
 .wrap{
     border: 1px solid rgba(117, 115, 115, 0.399);
     border-radius: 10px;
-    padding: 50px 50px;
+    padding: 30px 50px;
     transition: transform 0.5s;
 }
 
@@ -186,8 +193,8 @@ button:hover{
 }
 
 .service  .wrap:hover{
-    background-color: #8d99ae;
-    border: 1px solid #8d99ae;
+    background-color: #b8c0ff;
+    border: 1px solid #b8c0ff;
     color: rgb(255, 255, 255) !important;
     /* transform: scale(0.97);  */
 }
